@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&family=Ubuntu:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -90,15 +90,25 @@
         <div class="row">
           <div class="col-lg-6">
             <h1>Meet new and interesting cats nearby</h1>
-            <button type="button" class="btn btn-lg btn-dark download-btn">
+            <button
+              type="button"
+              class="btn btn-lg btn-dark download-btn apple-btn"
+            >
               <i class="fa-brands fa-apple"></i> Download
             </button>
-            <button type="button" class="btn btn-lg btn-outline-light download-btn">
+            <button
+              type="button"
+              class="btn btn-lg btn-outline-light download-btn google-btn"
+            >
               <i class="fa-brands fa-google-play"></i> Download
             </button>
           </div>
           <div class="col-lg-6">
-            <img class="title-img" src="images/iphone6.png" alt="iphone-mockup" />
+            <img
+              class="title-img"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+            />
           </div>
         </div>
       </div>
@@ -107,38 +117,87 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use</h3>
-      <p>So easy to use, even your cat could do it.</p>
+      <div class="row">
+        <div class="col-lg-4 feature">
+          <i class="fa-solid fa-circle-check fa-4x icons"></i>
+          <h3>Easy to use</h3>
+          <p>So easy to use, even your cat could do it.</p>
+        </div>
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the cats, the greatest cats.</p>
+        <div class="col-lg-4 feature">
+          <i class="fa-light fa-paw fa-4x icons"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the cats, the greatest cats.</p>
+        </div>
 
-      <h3>Guaranteed to work</h3>
-      <p>Find the love of your cat's life or your money back.</p>
+        <div class="col-lg-4 feature">
+          <i class="fa-solid fa-heart fa-4x icons"></i>
+          <h3>Guaranteed to work</h3>
+          <p>Find the love of your cat's life or your money back.</p>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials -->
 
     <section id="testimonials">
-      <h2>
-        I no longer have to sniff other cats for love. I've found the hottest
-        Ragdoll on TinCat. Meow.
-      </h2>
-      <img src="images/cat-img.jpg" alt="cat-profile" />
-      <em>Pebbles, New York</em>
-
-      <!-- <h2 class="testimonial-text">My cat used to be so lonely, but with TinCat's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              I no longer have to sniff other cats for love. I've found the
+              hottest Ragdoll on TinCat. Meow.
+            </h2>
+            <img
+              class="testimonial-img"
+              src="images/cat-img.jpg"
+              alt="cat-profile"
+            />
+            <em>Ash, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              My cat used to be so lonely, but with TinCat's help, they've found
+              the love of their life. I think.
+            </h2>
+            <img
+              class="testimonial-img"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Jaine, Tokyo</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
     </section>
 
     <!-- Press -->
 
     <section id="press">
-      <img src="images/techcrunch.png" alt="tc-logo" />
-      <img src="images/tnw.png" alt="tnw-logo" />
-      <img src="images/bizinsider.png" alt="biz-insider-logo" />
-      <img src="images/mashable.png" alt="mashable-logo" />
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img class="press-logo" src="images/Mashable.png" alt="mashable-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
     </section>
 
     <!-- Pricing -->
@@ -147,27 +206,53 @@
       <h2>A Plan for Every Cat's Needs</h2>
       <p>Simple and affordable price plans for your and your cat.</p>
 
-      <h3>Siamese</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+      <div class="row">
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Siamese</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-lg btn-outline-dark btn-block">Sign Up</button>
+            </div>
+          </div>
+        </div>
 
-      <h3>Sphynx</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Sphynx</h3>
+            </div>
+            <div class="card-body">
+              <h2>$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-lg btn-dark btn-block">Sign Up</button>
+            </div>
+          </div>
+        </div>
 
-      <h3>Maine Coon</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+        <div class="pricing-col col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Maine Coon</h3>
+            </div>
+            <div class="card-body">
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-lg btn-dark btn-block">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->

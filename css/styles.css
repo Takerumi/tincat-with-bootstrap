@@ -4,7 +4,7 @@ body {
 
 section#title {
     background-color: #FF5F5F;
-    color: #F0F0F0;
+    color: #F5F5F5;
 }
 
 h1 {
@@ -12,6 +12,18 @@ h1 {
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #121212;
 }
 
 .container-fluid {
@@ -51,4 +63,83 @@ h1 {
 
 .download-btn {
     margin: 5% 3% 5% 0;
+}
+
+.apple-btn:hover {
+    background-color: #30475E;
+}
+
+.google-btn:hover {
+    background-color: #F0F0F0;
+}
+
+/* Feature Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #F5F5F5;
+}
+
+.feature {
+    text-align: center;
+    padding: 4.5%;
+}
+
+ 
+.feature > p {
+    color: #808080;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.icons { 
+    color: #F05454;
+    margin-bottom: 1rem;
+}
+
+.icons:hover {
+    color: #FF5F5F;
+}
+
+
+/* Testinonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #F05454;
+    color: #F5F5F5;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #F05454;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pticing Section */
+
+#pricing {
+    padding: 100px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
 }
