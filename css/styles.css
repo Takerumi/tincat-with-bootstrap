@@ -153,20 +153,18 @@ h2 {
 }
 
 .button2 {
+    background-color: #F05454;
     margin-top: 3.5rem;
 }
 
-.button2:hover {
-    background-color: #30475E;
-}
 
-.button3:hover {
-    background-color: #30475E;
+.button3 {
+    background-color: #F05454;
 }
 
 .card-header {
-    background-color: #F05454;
-    color: #F5F5F5;
+    background-color: #e5e5e5;
+    color: #121212;
     font-weight: 600;
 }
 
@@ -180,4 +178,47 @@ h2 {
         transform: rotate(0);
         margin: auto;
     }
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.download-section {
+    background-color: #F05454;
+    color: #F5F5F5;
+    padding: 5%;
+    line-height: 1rem;
+}
+
+.call-to-action {
+    width: 60%;
+    margin: auto;
+    font-weight: 900;
+}
+
+.btn-section {
+    margin: 2rem auto;
+}
+
+.footer-link {
+    color: #3d3d3d;
+    padding: 0.5rem;
+}
+
+.footer-link:hover {
+    color: #30475E;
+}
+
+.social-media {
+    padding: 5rem 0 1rem;
+}
+
+.copyright {
+    font-size: small;
+    color: #808080;
+    font-weight: 500;
 }
