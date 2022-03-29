@@ -2,23 +2,42 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+@media (max-width: 650px) {
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+}
+
+@media (min-width: 651px) {
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.5rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+}
+
+/* Title Section */
+
 #title {
     background-color: #FF5F5F;
     color: #F5F5F5;
     height: 80%;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
 .container-fluid {
@@ -58,15 +77,7 @@ h2 {
 /* Download Buttons */
 
 .download-btn {
-    margin: 5% 3% 5% 0;
-}
-
-.apple-btn:hover {
-    background-color: #30475E;
-}
-
-.google-btn:hover {
-    background-color: #F0F0F0;
+    margin: 5% 1.1% 5% 1.1%;
 }
 
 /* Feature Section */
